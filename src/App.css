@@ -1,17 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fjalla+One&family=Indie+Flower&family=Pacifico&display=swap');
+
+*{
+  /* font-family: 'Abril Fatface', cursive; */
+/* font-family: 'Fjalla One', sans-serif; */
+font-family: 'Indie Flower', cursive;
+font-weight:bolder;
+
+}
+.window{
+  display:flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items:center ;
+  /* background-color:#ffffff; */
+  /* background-image: src("bg.png"); */
+  background-image: url("../src/bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 95%;
+  height: 650px;
+  justify-content: space-evenly;
+}
+.titleimg{
+  width:80%;
+  /* height: 900px; */
+}
+.res{
+  background-color: rgb(209, 185, 255); 
+  width:200px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
 .App {
   text-align: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center ;
+  background-color: rgb(82, 158, 255);
+  width:800px;
+  height: 450px;
+  /* margin-top: 100px; */
+  
+  
+  /* background-color: ; */
+}
+.attempt{
+  background-color:#DFFFAC;
+  font-weight: bold;
+  font-size:20px;
+  position: relative;
+  top:30px;
+  left:320px;
+  width:140px;
+  margin: 0px;
+  /* height:500px; */
+}
+.Title{
+  font-size:70px ;
+  color:#ffffff;
+}
+.description{
+  margin: 0px;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  color:#000000;
+}
+.inputField{
+  width:94px;
+  height:50px ;
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: #DFFFAC;
+}
+.GuessBtn{
+  border-radius: 10px;
+  border-width: 0px;
+  width:94px;
+  height:45px ;
+  /* font-weight: bolder; */
+  font-size:25px;
+  background-color: #DFFFAC;
+  margin-left:10px ;
+}
+.message{
+  color:#000000;
+  font-size: 22px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
